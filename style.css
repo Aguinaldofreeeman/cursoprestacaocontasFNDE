@@ -6,22 +6,22 @@
 }
 
 h1 {
+  text-align: center;
     font-style: 900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 4em;
     color: #050552;
     padding-bottom: 0.2em;
 }
 
 
+
+
+
+
+
 h2 {
-    font-style: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
+    font-weight: 600;
+       font-size: 2em;
     color: #050552;
     padding-bottom: 2em;
 }
@@ -45,7 +45,7 @@ height: auto;
 margin: auto;
 overflow: hidden;
 border-top: 4px solid #000;
-padding-top: 3em;
+
 
 
 }
@@ -55,6 +55,7 @@ padding-top: 3em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .print-img{
@@ -62,12 +63,13 @@ padding-top: 3em;
     border-radius: 20px;
     margin-bottom: 7em;
     border-image: linear-gradient(to right, rgb(124, 207, 16), rgb(160, 4, 4)) 1;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    outline: 5px solid linear-gradient(to right, rgb(124, 207, 16), rgb(160, 4, 4));
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px outline; */
 
   }
 
   .legenda {
-    font-style: 400;
+    
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: rgb(139, 8, 8); 
@@ -79,11 +81,11 @@ padding-top: 3em;
   }
 
   .tituloh2{
+    text-align: center;
     font-size: 2em;
     color: brown;
     padding-top: 2em;
     padding-bottom: 2em;
-    justify-content: left;
     padding-left: 1em;
   }
 
@@ -92,26 +94,19 @@ padding-top: 3em;
  padding-bottom: 3em;
   }
 
-.titulo2{
- font-weight: 900;
- font-size: 3em;
-background-color: yellow;
-align-content: center;
-
-}
   .destaque {
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(206, 206, 14);
     border: 5px solid blanchedalmond;
     border-radius: 40px;
-    margin-top: 5em;
+    margin: 2em auto;
+    padding: 1em 2em;
     font-weight: 800;
-    margin: 2em 14em;
     flex-wrap: wrap;
-    padding-top: 1em;
-    padding-bottom: 3em;
+    max-width: 80%;
 
   }
 
@@ -120,4 +115,13 @@ align-content: center;
 
     background-color: yellow;
     font-size: x-large;
+  }
+
+
+  footer{
+  text-align: center;
+
+  margin-top: 3em;
+  font-size: small;
+  font-style: oblique;
   }
