@@ -78,6 +78,14 @@ padding-top: 3em;
     color: brown;
   }
 
+  .tituloh2{
+    font-size: 2em;
+    color: brown;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: left;
+    padding-left: 1em;
+  }
 
   .inicial{
  padding-top: 3em;
