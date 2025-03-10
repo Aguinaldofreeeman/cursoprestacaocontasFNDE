@@ -39,9 +39,11 @@ h1 {
 
 h2 {
     font-weight: 600;
-       font-size: 2em;
+       font-size: 3em;
     color: #050552;
     padding-bottom: 2em;
+    padding-top: 2em;
+    text-align: center;
 }
 
 p{
@@ -53,6 +55,16 @@ p{
 
 }
 
+
+
+
+ol > li{
+  font-size: 1.8em;
+    color: #050552;
+    padding-bottom: 0.4em;
+    margin-left: 2em;
+   margin-right: 2em;
+}
 
 .prints{
     display: flex;
@@ -154,6 +166,17 @@ margin-bottom: 10em;
 }
 
 
+
+.inicio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+height: auto;
+
+margin-bottom: 5em;
+}
 
   footer {
     background-color: #050552;
