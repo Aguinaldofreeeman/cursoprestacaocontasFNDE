@@ -161,8 +161,20 @@ margin-bottom: 10em;
   
 }
 
+
+main{
+  display: flex;;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  margin-bottom: 3em;
+}
+
+
 .materiais {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 
@@ -178,26 +190,58 @@ height: auto;
 margin-bottom: 5em;
 }
 
+
+
+.imginicio{
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1em
+
+}
+
+
+
   footer {
     background-color: #050552;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: em 0;
+    padding-top: 0.5em;
     position: fixed;
     bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+
 }
 
 footer p {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     color: white;
     text-decoration: none;
-    line-height: 1.1;
+    line-height: 1.0;
 }
 
 footer a {
   color: white; 
    
+}
+
+h3{
+  margin-top: 1em;
+}
+
+.honra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 206, 14);
+  border: 5px solid blanchedalmond;
+  border-radius: 40px;
+  margin-bottom: 0.5em;
+
+  font-weight: 800;
+  flex-wrap: wrap;
+  max-width: 80%;
 }
